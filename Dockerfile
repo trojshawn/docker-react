@@ -22,5 +22,5 @@ RUN npm run build
 # https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11436998#questions/14297316
 
 FROM nginx
-
+EXPOSE 80
 COPY --from=builder /home/node/app/build /usr/share/nginx/html
