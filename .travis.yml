@@ -9,3 +9,5 @@ before_install:
 
 script:
   - docker run -e CI=true trojshawn/docker-react npm run test
+
+# stupid travis
